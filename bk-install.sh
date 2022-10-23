@@ -39,6 +39,14 @@ cmake \
 -DCONNECTOR_FCGI=Off \
 -DCONNECTOR_HTTP=On \
 -DBOOST_DYNAMIC=Off \
+-DBOOST_PREFIX=.. \
+-DBoost_INCLUDE_DIR=../boost/include \
+-DBoost_USE_STATIC_RUNTIME=Off \
+-DBoost_DIR=../boost/lib/cmake/Boost-1.80.0 \
+-DBoost_FILESYSTEM_LIBRARY_RELEASE=../boost/lib/libboost_filesystem.so.1.80.0 \
+-DBoost_PROGRAM_OPTIONS_LIBRARY_RELEASE=../boost/lib/libboost_program_options.so.1.80.0 \
+-DBoost_SYSTEM_LIBRARY_RELEASE=../boost/lib/libboost_system.so.1.80.0 \
+-DBoost_THREAD_LIBRARY_RELEASE=../boost/lib/libboost_thread.so.1.80.0 \
 -DHARU_DYNAMIC=On \
 -DHARU_LIB=../libharu/lib/libharu.so \
 -DHARU_INCLUDE_DIR=../libharu/include \
