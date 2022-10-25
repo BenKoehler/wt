@@ -1,3 +1,4 @@
+set(BK_WT_VERSION "4.8.0")
 function(link_wt target MOD)
     target_link_libraries(${target} ${MOD} ${PROJECT_SOURCE_DIR}/thirdparty/wt/lib/libwt.so)
     target_link_libraries(${target} ${MOD} ${PROJECT_SOURCE_DIR}/thirdparty/wt/lib/libwthttp.so)
